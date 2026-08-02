@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.whistic.com/security
+standards:
+- id: soc2
+  name: AICPA SOC 2
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: iso27001
+  name: ISO/IEC 27001 (Information Security Management)
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: iso42001
+  name: ISO/IEC 42001 (AI Management System)
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: nist
+  name: NIST Cybersecurity Framework alignment
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: Stated GDPR-compliant on Whistic security profile
+- id: tx-ramp
+  name: Texas Risk and Authorization Management Program (TX-RAMP)
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: start-level-one
+  name: Shared Assessments STAR / START Level One
+  conforms: true
+  evidence: Published on Whistic security profile / trust center
+- id: shared-assessments
+  name: Shared Assessments framework alignment
+  conforms: true
+  evidence: Published on Whistic security profile / trust center

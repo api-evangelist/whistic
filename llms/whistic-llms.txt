@@ -1,0 +1,25 @@
+# Whistic
+
+> Whistic is an AI-driven Third-Party Risk Management (TPRM) platform that helps organizations assess vendor security, monitor third-party risk continuously, and share their own security posture through a Trust Center. It combines assessment AI, vendor monitoring with breach detection, questionnaire automation, and a Trust Center Exchange of verified vendor security information.
+
+## Company
+- [Whistic](https://www.whistic.com): AI-driven Third-Party Risk Management (TPRM) platform.
+- [Security Profile / Trust Center](https://www.whistic.com/security): Whistic's own security posture, certifications, and vulnerability disclosure policy.
+- [Partners & Integrations](https://www.whistic.com/partners): Technology integrations (Jira, Salesforce, Slack, BitSight) and strategic partners.
+- [Resources / Blog](https://www.whistic.com/resources): Articles, case studies, and guides.
+- [Pricing](https://www.whistic.com/pricing): Core, Assess, Assess+, and Trust+ packages.
+- [Help Center](https://whistichelp.zendesk.com/hc/en-us): Product documentation and support.
+
+## Product
+- [Assessment AI](https://www.whistic.com): Automated vendor assessments.
+- [Vendor Monitoring](https://www.whistic.com): Continuous breach detection with structured alerts.
+- [Trust Center](https://www.whistic.com): Security posture management and sharing.
+- [Console (app)](https://console.whistic.co): The Whistic web application / sign-in.
+
+## Compliance
+- Certifications: SOC 2 (AICPA), ISO 27001, ISO 42001, NIST, GDPR, TX-RAMP, START Level One, Shared Assessments.
+- [Vulnerability Disclosure Policy](https://www.whistic.com/security): Responsible disclosure; contact security@whistic.com (no bug bounty rewards; scope console.whistic.co).
+
+## Notes
+- No public OpenAPI specification, SDK packages, or public GitHub repositories were discoverable at enrichment time; the Whistic REST API is documented in the gated Help Center and available to customers.
+- Integrations exist with Jira, Salesforce, Slack, and BitSight.

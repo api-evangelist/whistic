@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://www.whistic.com/security
+name: Whistic Security Profile / Trust Center
+certifications:
+- SOC 2
+- ISO 27001
+- ISO 42001
+- NIST
+- GDPR
+- TX-RAMP
+- START Level One
+- Shared Assessments
+notes: Whistic publishes its own security posture via a Whistic Trust Center profile;
+  a subprocessors list is maintained and updated (as of April 2026).
+evidence:
+- source: https://www.whistic.com/security
+  keywords:
+  - soc 2
+  - iso 27001
+  - iso 42001
+  - nist
+  - gdpr
+  - tx-ramp
+  - trust center

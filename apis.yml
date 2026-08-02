@@ -1,8 +1,27 @@
 aid: whistic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whistic.png
 name: Whistic
-description: Whistic is a company surfaced as a portfolio company of battery-ventures, emergence-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Whistic is an AI-driven Third-Party Risk Management (TPRM) platform that helps
+  organizations assess vendor security, monitor third-party risk continuously, and
+  share their own security posture through a Trust Center. The platform combines
+  assessment AI (automated questionnaire responses and SOC 2 summarization), vendor
+  monitoring with breach detection and structured alerts, compliance controls testing,
+  and a Trust Center Exchange of verified security information for thousands of vendors.
+  It integrates with Jira, Salesforce, Slack, and BitSight. Whistic itself holds SOC 2,
+  ISO 27001, ISO 42001, NIST, GDPR, TX-RAMP, and START Level One / Shared Assessments
+  certifications, backed by Battery Ventures and Emergence Capital.
 url: https://raw.githubusercontent.com/api-evangelist/whistic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Third-Party Risk Management
+- Vendor Security
+- Security Assessments
+- Trust Center
+- Compliance
+- GRC
+- Cybersecurity
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.whistic.com
+- type: Support
+  url: https://whistichelp.zendesk.com/hc/en-us
+- type: Blog
+  url: https://www.whistic.com/resources
+- type: Pricing
+  url: https://www.whistic.com/pricing
+- type: SignUp
+  url: https://console.whistic.co/
+- type: TermsOfService
+  url: https://www.whistic.com/terms
+- type: PrivacyPolicy
+  url: https://www.whistic.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/whistic
+- type: Security
+  url: https://www.whistic.com/security
+- type: TrustCenter
+  url: security/whistic-trust-center.yml
+- type: Compliance
+  url: https://www.whistic.com/security
+- type: Conformance
+  url: conformance/whistic-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/whistic-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/whistic-domain-security.yml
+- type: LLMsTxt
+  url: llms/whistic-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
