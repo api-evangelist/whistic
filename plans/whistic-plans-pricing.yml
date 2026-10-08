@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.whistic.com/pricing
+sources:
+- https://www.whistic.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page lists packages and features but
+  no numeric prices; only 'Request Pricing' and contact us. Numbers shown are included quantities, not
+  prices.
+plan_count: 3
+plans:
+- name: Whistic Core
+  price_text: Request Pricing
+  period: none
+  included_quota: Vendors Unlimited, Users Unlimited, Assessments 25, Smart Responses 5, Assessment Copilot
+    Uses 5, Vendor Insights Uses 5, Trust Centers 1
+- name: Assess +
+  price_text: Request Pricing
+  period: none
+  included_quota: All of Whistic Core plus custom questionnaire builder + logic, pre-questionnaire workflows,
+    intake forms, 125 additional assessments
+- name: Trust +
+  price_text: Request Pricing
+  period: none
+  included_quota: 'Whistic Trust Center Pro: Smart Response with Knowledge Base, Vendor Insights, premium
+    frameworks, additional Trust Center profiles'
